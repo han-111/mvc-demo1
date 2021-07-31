@@ -1,0 +1,31 @@
+#app2 {
+  background: darkorange;
+  color: #000;
+  font-size: 16px;
+}
+#app2 .tab_bar {
+  display: flex;
+}
+#app2 .tab_bar > li {
+  padding: 15px;
+  text-align: center;
+  width: 50%;
+  cursor: pointer;
+  border-bottom: 2px solid #fff;
+}
+.first {
+  border-right: 2px solid #fff;
+}
+
+#app2 .tab_content > li {
+  display: none;
+}
+#app2 > .tab_content > li.active {
+  display: block;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.selected {
+  background: chartreuse;
+}

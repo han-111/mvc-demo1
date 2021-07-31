@@ -1,0 +1,25 @@
+#app4 {
+  background: #4de5c3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@keyframes change {
+  0% {
+    background: red;
+  }
+  100% {
+    background: #f4f800;
+  }
+}
+#app4 .circle {
+  width: 100px;
+  height: 100px;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 1px solid red;
+}
+#app4 .circle.active {
+  animation: change 1s infinite alternate linear;
+}
